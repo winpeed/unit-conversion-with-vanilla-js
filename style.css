@@ -32,13 +32,18 @@ body {
     var(--light-purple) 0%,
     var(--dark-purple) 100%
   );
-  padding: 2.5em 1em;
+  padding: 2em 1em;
   text-align: center;
   color: var(--white);
+  height: 32vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .top h1 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding: 0.2em 0em;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
