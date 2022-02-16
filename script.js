@@ -17,19 +17,19 @@ function doCalculation() {
 
   meterFeet.innerHTML = ` <p>${userInput.value} meters = ${(
     Number(userInput.value) * 3.2808399
-  ).toFixed(3)} feet | ${userInput.value} feet = ${(
+  ).toFixed(3)} feet <br/> ${userInput.value} feet = ${(
     Number(userInput.value) / 3.2808399
   ).toFixed(3)} meters</p>`;
 
   literGallon.innerHTML = ` <p>${userInput.value} liters = ${(
     Number(userInput.value) * 0.264172052
-  ).toFixed(3)} gallons | ${userInput.value} gallons = ${(
+  ).toFixed(3)} gallons <br/> ${userInput.value} gallons = ${(
     Number(userInput.value) / 0.264172052
   ).toFixed(3)} liters</p>`;
 
   kiloPound.innerHTML = ` <p>${userInput.value} kilos = ${(
     Number(userInput.value) * 2.20462262
-  ).toFixed(3)} pounds | ${userInput.value} pounds = ${(
+  ).toFixed(3)} pounds <br/> ${userInput.value} pounds = ${(
     Number(userInput.value) / 2.20462262
   ).toFixed(3)} kilos</p>`;
 }
